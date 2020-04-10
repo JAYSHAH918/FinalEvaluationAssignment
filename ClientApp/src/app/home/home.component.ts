@@ -1,0 +1,15 @@
+import { Component } from '@angular/core';
+import { NgForm } from '@angular/forms';
+
+@Component({
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+})
+export class HomeComponent {
+
+//var app = Controller.NewRecordController;
+
+  SaveContact(form: NgForm) {
+    
+  }
+}
